@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Yayo's Combat 3</li>
+		</mods>		
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+			
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/RecipeDef/defName[text()[starts-with(.,"Make_yy_ammo_primitive")]]/../effectWorking</xpath>
+					<value>
+						<effectWorking>Sculpt</effectWorking>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/RecipeDef/defName[text()[starts-with(.,"Make_yy_ammo_primitive")]]/../soundWorking</xpath>
+					<value>
+						<soundWorking>Recipe_MakeBow</soundWorking>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/RecipeDef/defName[text()[starts-with(.,"Make_yy_ammo_")]]/../unfinishedThingDef</xpath>
+					<value>
+						<unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/RecipeDef/defName[text()[starts-with(.,"Make_yy_ammo_primitive")]]/../unfinishedThingDef</xpath>
+					<value>
+						<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+					</value>
+				</li>
+
+			</operations>
+		</match>
+	</Operation>
+  
+</Patch>

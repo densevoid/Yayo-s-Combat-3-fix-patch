@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+  <name>Yayo's Combat 3 fix patch</name>
+  <author>Densevoid</author>
+  <supportedVersions>
+  <li>1.1</li>
+  <li>1.2</li>
+  </supportedVersions>
+	<packageId>io.github.densevoid.combat3fix</packageId>
+	<loadAfter>
+        <li>com.yayo.combat3</li>
+    </loadAfter>
+	<modDependencies>
+		<li>
+			<packageId>com.yayo.combat3</packageId>
+			<displayName>Yayo's Combat 3</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2038409475</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+  <description>Mod fixes an error with the price of unloaded weapons. Now the ammo inside the weapon, on the contrary, increases its base price. Changed the effect of ammunition production.</description>
+</ModMetaData>

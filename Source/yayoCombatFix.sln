@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yayoCombatFix", "yayoCombatFix.csproj", "{208ED2DF-9214-4C13-A801-E60B605C858F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{208ED2DF-9214-4C13-A801-E60B605C858F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{208ED2DF-9214-4C13-A801-E60B605C858F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{208ED2DF-9214-4C13-A801-E60B605C858F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{208ED2DF-9214-4C13-A801-E60B605C858F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F875B21E-D6F3-4A77-8005-70EEAC3C8B30}
+	EndGlobalSection
+EndGlobal
